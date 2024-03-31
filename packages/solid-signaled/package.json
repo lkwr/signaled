@@ -1,0 +1,40 @@
+{
+  "name": "solid-signaled",
+  "version": "0.0.0-next.0",
+  "type": "module",
+  "keywords": [
+    "solid",
+    "solidjs",
+    "signal",
+    "signals"
+  ],
+  "author": {
+    "name": "Lukas Heizmann",
+    "email": "lukas@heizmann.dev",
+    "url": "https://heizmann.dev"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "solid-js": "^1.8.16",
+    "typescript": "^5.4.3"
+  },
+  "peerDependencies": {
+    "solid-js": "^1.8.16"
+  },
+  "bugs": {
+    "url": "https://github.com/lkwr/signaled/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lkwr/signaled.git"
+  },
+  "license": "MIT"
+}
