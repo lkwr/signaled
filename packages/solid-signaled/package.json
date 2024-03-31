@@ -1,6 +1,6 @@
 {
   "name": "solid-signaled",
-  "version": "0.0.0-next.0",
+  "version": "0.0.0-next.1",
   "type": "module",
   "keywords": [
     "solid",
@@ -19,6 +19,9 @@
       "types": "./dist/index.d.ts"
     }
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc"
   },
